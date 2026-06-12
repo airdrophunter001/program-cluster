@@ -1,0 +1,84 @@
+simulation:
+  resolution: 0.5          # 격자 해상도 (미터)
+  grid_width: 20.0          # 시뮬레이션 영역 너비 (미터)
+  grid_height: 15.0         # 시뮬레이션 영역 높이 (미터)
+  floor_height: 2.8         # 층 높이 (미터)
+  num_floors: 1
+
+propagation:
+  model: "log_distance"     # fspl | log_distance | itu_r
+  path_loss_exponent: 3.0   # 자유공간=2, 실내=2.7~4.0
+  reference_distance: 1.0   # 기준 거리 (미터)
+  shadowing_std_db: 4.0     # 섀도잉 표준편차 (dB)
+
+frequency_bands:
+  "2.4GHz":
+    frequency_hz: 2.4e9
+    channel_bandwidth_mhz: 20
+    max_tx_power_dbm: 20
+    noise_figure_db: 7
+  "5GHz":
+    frequency_hz: 5.0e9
+    channel_bandwidth_mhz: 80
+    max_tx_power_dbm: 23
+    noise_figure_db: 7
+  "6GHz":
+    frequency_hz: 6.0e9
+    channel_bandwidth_mhz: 160
+    max_tx_power_dbm: 23
+    noise_figure_db: 8
+
+materials:
+  concrete:
+    attenuation_db_per_m: 12.0
+    thickness_m: 0.2
+  brick:
+    attenuation_db_per_m: 8.0
+    thickness_m: 0.15
+  drywall:
+    attenuation_db_per_m: 3.0
+    thickness_m: 0.1
+  glass:
+    attenuation_db_per_m: 2.0
+    thickness_m: 0.006
+  wood:
+    attenuation_db_per_m: 4.0
+    thickness_m: 0.05
+  metal:
+    attenuation_db_per_m: 25.0
+    thickness_m: 0.003
+  door_wood:
+    attenuation_db_per_m: 3.0
+    thickness_m: 0.04
+
+signal_thresholds:
+  excellent_dbm: -50
+  good_dbm: -65
+  fair_dbm: -75
+  poor_dbm: -85
+  no_signal_dbm: -100
+
+sinr:
+  noise_floor_dbm: -100
+  min_sinr_db: 10.0
+
+visualization:
+  colormap: "RdYlGn"
+  contour_levels: 10
+  dpi: 150
+  figure_width: 12
+  figure_height: 8
+
+optimizer:
+  population_size: 30
+  generations: 50
+  mutation_rate: 0.15
+  crossover_rate: 0.8
+  elite_size: 3
+  target_coverage_pct: 90.0
+  min_signal_dbm: -75.0
+
+export:
+  output_dir: "output"
+  csv_filename: "coverage_report.csv"
+  pdf_filename: "coverage_report.pdf"

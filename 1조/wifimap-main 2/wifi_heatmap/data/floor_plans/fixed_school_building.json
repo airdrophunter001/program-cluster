@@ -1,0 +1,539 @@
+{
+  "name": "5층 교사동 (고정 평면도)",
+  "width": 52.0,
+  "height": 13.6,
+  "walls": [
+    {
+      "id": "w1",
+      "start": [
+        0,
+        0
+      ],
+      "end": [
+        52.0,
+        0
+      ],
+      "material": "concrete",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w2",
+      "start": [
+        52.0,
+        0
+      ],
+      "end": [
+        52.0,
+        10.0
+      ],
+      "material": "concrete",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w3",
+      "start": [
+        52.0,
+        10.0
+      ],
+      "end": [
+        32.0,
+        10.0
+      ],
+      "material": "concrete",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w4",
+      "start": [
+        32.0,
+        10.0
+      ],
+      "end": [
+        32.0,
+        13.6
+      ],
+      "material": "concrete",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w5",
+      "start": [
+        32.0,
+        13.6
+      ],
+      "end": [
+        20.0,
+        13.6
+      ],
+      "material": "concrete",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w6",
+      "start": [
+        20.0,
+        13.6
+      ],
+      "end": [
+        20.0,
+        10.0
+      ],
+      "material": "concrete",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w7",
+      "start": [
+        20.0,
+        10.0
+      ],
+      "end": [
+        0,
+        10.0
+      ],
+      "material": "concrete",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w8",
+      "start": [
+        0,
+        10.0
+      ],
+      "end": [
+        0,
+        0
+      ],
+      "material": "concrete",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w9",
+      "start": [
+        4.0,
+        0
+      ],
+      "end": [
+        4.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w10",
+      "start": [
+        8.0,
+        0
+      ],
+      "end": [
+        8.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w11",
+      "start": [
+        12.0,
+        0
+      ],
+      "end": [
+        12.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w12",
+      "start": [
+        16.0,
+        0
+      ],
+      "end": [
+        16.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w13",
+      "start": [
+        20.0,
+        0
+      ],
+      "end": [
+        20.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w14",
+      "start": [
+        24.0,
+        0
+      ],
+      "end": [
+        24.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w15",
+      "start": [
+        28.0,
+        0
+      ],
+      "end": [
+        28.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w16",
+      "start": [
+        32.0,
+        0
+      ],
+      "end": [
+        32.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w17",
+      "start": [
+        36.0,
+        0
+      ],
+      "end": [
+        36.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w18",
+      "start": [
+        40.0,
+        0
+      ],
+      "end": [
+        40.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w19",
+      "start": [
+        44.0,
+        0
+      ],
+      "end": [
+        44.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w20",
+      "start": [
+        48.0,
+        0
+      ],
+      "end": [
+        48.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w21",
+      "start": [
+        0,
+        6
+      ],
+      "end": [
+        52.0,
+        6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w22",
+      "start": [
+        20.0,
+        10.0
+      ],
+      "end": [
+        32.0,
+        10.0
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w23",
+      "start": [
+        23.0,
+        10.0
+      ],
+      "end": [
+        23.0,
+        13.6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w24",
+      "start": [
+        26.0,
+        10.0
+      ],
+      "end": [
+        26.0,
+        13.6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    },
+    {
+      "id": "w25",
+      "start": [
+        29.0,
+        10.0
+      ],
+      "end": [
+        29.0,
+        13.6
+      ],
+      "material": "drywall",
+      "is_door": false,
+      "is_window": false
+    }
+  ],
+  "rooms": [
+    {
+      "id": "room1",
+      "name": "교실1",
+      "bounds": [
+        0.0,
+        0,
+        4.0,
+        6
+      ]
+    },
+    {
+      "id": "room2",
+      "name": "교실2",
+      "bounds": [
+        4.0,
+        0,
+        8.0,
+        6
+      ]
+    },
+    {
+      "id": "room3",
+      "name": "교실3",
+      "bounds": [
+        8.0,
+        0,
+        12.0,
+        6
+      ]
+    },
+    {
+      "id": "room4",
+      "name": "교실4",
+      "bounds": [
+        12.0,
+        0,
+        16.0,
+        6
+      ]
+    },
+    {
+      "id": "room5",
+      "name": "교실5",
+      "bounds": [
+        16.0,
+        0,
+        20.0,
+        6
+      ]
+    },
+    {
+      "id": "room6",
+      "name": "교실6",
+      "bounds": [
+        20.0,
+        0,
+        24.0,
+        6
+      ]
+    },
+    {
+      "id": "room7",
+      "name": "교실7",
+      "bounds": [
+        24.0,
+        0,
+        28.0,
+        6
+      ]
+    },
+    {
+      "id": "room8",
+      "name": "교실8",
+      "bounds": [
+        28.0,
+        0,
+        32.0,
+        6
+      ]
+    },
+    {
+      "id": "room9",
+      "name": "교실9",
+      "bounds": [
+        32.0,
+        0,
+        36.0,
+        6
+      ]
+    },
+    {
+      "id": "room10",
+      "name": "교실10",
+      "bounds": [
+        36.0,
+        0,
+        40.0,
+        6
+      ]
+    },
+    {
+      "id": "room11",
+      "name": "교실11",
+      "bounds": [
+        40.0,
+        0,
+        44.0,
+        6
+      ]
+    },
+    {
+      "id": "room12",
+      "name": "교실12",
+      "bounds": [
+        44.0,
+        0,
+        48.0,
+        6
+      ]
+    },
+    {
+      "id": "room13",
+      "name": "교실13",
+      "bounds": [
+        48.0,
+        0,
+        52.0,
+        6
+      ]
+    },
+    {
+      "id": "room14",
+      "name": "복도",
+      "bounds": [
+        0,
+        6,
+        52.0,
+        10.0
+      ]
+    },
+    {
+      "id": "room15",
+      "name": "소실1",
+      "bounds": [
+        20.0,
+        10.0,
+        23.0,
+        13.6
+      ]
+    },
+    {
+      "id": "room16",
+      "name": "소실2",
+      "bounds": [
+        23.0,
+        10.0,
+        26.0,
+        13.6
+      ]
+    },
+    {
+      "id": "room17",
+      "name": "소실3",
+      "bounds": [
+        26.0,
+        10.0,
+        29.0,
+        13.6
+      ]
+    },
+    {
+      "id": "room18",
+      "name": "소실4",
+      "bounds": [
+        29.0,
+        10.0,
+        32.0,
+        13.6
+      ]
+    }
+  ]
+}
